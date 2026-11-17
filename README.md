@@ -1,21 +1,38 @@
-# Hi there, I'm Leo! 👋
+# Hi, I'm Leo 👋
 
-## 🚀 About Me
-I'm a passionate **Software Engineer** with experience in backend and full-stack development. I love working with different technologies, and explore new ones to build scalable applications.
+**Full-stack software engineer** based in Alajuela, Costa Rica 🇨🇷. I build production web apps end to end — from the database schema and security policies to the UI people use every day.
 
-## 💻 Tech Stack
-- Backend: .NET (C#), Node.js (Express)
-- Frontend: Angular, React
-- Database: MongoDB, SQL Server, PostgreSQL
-- Optional: Docker, Azure, CI/CD
+Right now I'm shipping software that real businesses run on: a multi-store CRM used daily by two family shoe stores, and marketing sites for clients.
 
-## 🎯 Learning & Interests
-I'm diving deeper into DevOps concepts, containerization (Docker), and cloud technologies to enhance my development workflow and deployment strategies.
+## 🛠️ Tech stack
 
-## 📫 Connect With Me
-- 📧 Email: leobarri1104@outlook.com
+| | |
+|---|---|
+| **Frontend** | TypeScript · React · Angular · Tailwind CSS · TanStack Query · Zustand · Vite |
+| **Backend** | Node.js (Express) · .NET (C#) · REST APIs · JWT auth |
+| **Data** | PostgreSQL · Supabase (Auth, RLS, Storage, pg_cron) · SQL Server · MongoDB |
+| **DevOps** | Docker · GitHub Actions CI/CD · Vercel · Azure |
+
+## ⭐ Featured projects
+
+### [CalzaTrack](https://github.com/leoba1104/calzatrack) — multi-store retail CRM · [live](https://calzatrack.vercel.app)
+Inventory, sales, layaways, store credit, purchasing and cash-register closing for two shoe stores, in daily production use.
+- Row-level security per store and role in Postgres; transactional sales RPC with stock locking
+- Thermal receipt printing straight from the browser over **WebUSB** (ESC/POS)
+- Automatic nightly cash-register close with **pg_cron**; migrations deployed by GitHub Actions
+- `React` `TypeScript` `Supabase` `PostgreSQL` `TanStack Query` `Tailwind`
+
+### [TS Calisthenics](https://github.com/leoba1104/ts-calisthenics) — client landing page · [live](https://ts-calisthenics.vercel.app)
+Conversion-focused, mobile-first site for a calisthenics academy in Argentina: programs and pricing, coaches, schedules, gallery and WhatsApp contact.
+- `React` `TypeScript` `Tailwind` `Framer Motion`
+
+### [Expresso](https://github.com/leoba1104/expresso) — Express + TypeScript API boilerplate
+A structured starter for REST APIs with MongoDB, JWT auth, role-based middleware, Swagger docs, Winston logging, Jest tests and CI.
+- `Node.js` `Express` `TypeScript` `MongoDB` `Docker`
+
+## 📫 Let's connect
+
 - 💼 [LinkedIn](https://www.linkedin.com/in/leonardo-barrientos-2b11971a9/)
+- 📧 leobarri1104@outlook.com
 
-
-Thanks for visiting! Let's connect and build something amazing. 🚀
-
+Open to full-stack roles (remote or Costa Rica).
